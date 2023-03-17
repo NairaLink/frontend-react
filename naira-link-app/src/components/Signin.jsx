@@ -19,6 +19,22 @@ export const Signin = () => {
                 />
               </div>
             </div>
+            <div className="relative">
+              <input
+                type="password"
+                name="password"
+                placeholder="password"
+                className="w-full h-12 rounded-md border border-green-600  bg-white outline-none p-3 text-black mb-4"
+              />
+            </div>
+            <div className='className="mt-4 flex justify-center items-center'>
+              <button
+                type="submit"
+                className="btn w-full max-w-[242px] bg-green-600 text-white capitalize h-14 rounded-xl hover:bg-green-900 border-none"
+              >
+                Sign in
+              </button>
+            </div>
           </div>
         </form>
       </div>
