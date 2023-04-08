@@ -6,13 +6,19 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
 import { Signin } from './components/Signin';
+
+=======
 import { Signup } from './components/Signup';
+
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
       <Footer />
+
+      {/* <Signin /> */}
+
       <Signin />
       <Signup />
     </>
